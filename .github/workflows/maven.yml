@@ -22,7 +22,7 @@ jobs:
           cache: maven
       - name: Build with Maven
         run: mvn -B package --file pom.xml
-        working-directory: ./Blog-application
+        working-directory: /Blog-application
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
