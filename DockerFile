@@ -1,4 +1,5 @@
 FROM openjdk:17
 ADD ./target/Blog-application.jar Blog-application.jar
 ENTRYPOINT ["java", "-jar", "Blog-application.jar"]
-EXPOSE 8085
+EXPOSE 8080
+
